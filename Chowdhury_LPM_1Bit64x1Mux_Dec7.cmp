@@ -1,0 +1,87 @@
+--Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+--Your use of Altera Corporation's design tools, logic functions 
+--and other software and tools, and its AMPP partner logic 
+--functions, and any output files from any of the foregoing 
+--(including device programming or simulation files), and any 
+--associated documentation or information are expressly subject 
+--to the terms and conditions of the Altera Program License 
+--Subscription Agreement, the Altera Quartus Prime License Agreement,
+--the Altera MegaCore Function License Agreement, or other 
+--applicable license agreement, including, without limitation, 
+--that your use is for the sole purpose of programming logic 
+--devices manufactured by Altera and sold by Altera or its 
+--authorized distributors.  Please refer to the applicable 
+--agreement for further details.
+
+
+component Chowdhury_LPM_1Bit64x1Mux_Dec7
+	PORT
+	(
+		data0		: IN STD_LOGIC ;
+		data1		: IN STD_LOGIC ;
+		data10		: IN STD_LOGIC ;
+		data11		: IN STD_LOGIC ;
+		data12		: IN STD_LOGIC ;
+		data13		: IN STD_LOGIC ;
+		data14		: IN STD_LOGIC ;
+		data15		: IN STD_LOGIC ;
+		data16		: IN STD_LOGIC ;
+		data17		: IN STD_LOGIC ;
+		data18		: IN STD_LOGIC ;
+		data19		: IN STD_LOGIC ;
+		data2		: IN STD_LOGIC ;
+		data20		: IN STD_LOGIC ;
+		data21		: IN STD_LOGIC ;
+		data22		: IN STD_LOGIC ;
+		data23		: IN STD_LOGIC ;
+		data24		: IN STD_LOGIC ;
+		data25		: IN STD_LOGIC ;
+		data26		: IN STD_LOGIC ;
+		data27		: IN STD_LOGIC ;
+		data28		: IN STD_LOGIC ;
+		data29		: IN STD_LOGIC ;
+		data3		: IN STD_LOGIC ;
+		data30		: IN STD_LOGIC ;
+		data31		: IN STD_LOGIC ;
+		data32		: IN STD_LOGIC ;
+		data33		: IN STD_LOGIC ;
+		data34		: IN STD_LOGIC ;
+		data35		: IN STD_LOGIC ;
+		data36		: IN STD_LOGIC ;
+		data37		: IN STD_LOGIC ;
+		data38		: IN STD_LOGIC ;
+		data39		: IN STD_LOGIC ;
+		data4		: IN STD_LOGIC ;
+		data40		: IN STD_LOGIC ;
+		data41		: IN STD_LOGIC ;
+		data42		: IN STD_LOGIC ;
+		data43		: IN STD_LOGIC ;
+		data44		: IN STD_LOGIC ;
+		data45		: IN STD_LOGIC ;
+		data46		: IN STD_LOGIC ;
+		data47		: IN STD_LOGIC ;
+		data48		: IN STD_LOGIC ;
+		data49		: IN STD_LOGIC ;
+		data5		: IN STD_LOGIC ;
+		data50		: IN STD_LOGIC ;
+		data51		: IN STD_LOGIC ;
+		data52		: IN STD_LOGIC ;
+		data53		: IN STD_LOGIC ;
+		data54		: IN STD_LOGIC ;
+		data55		: IN STD_LOGIC ;
+		data56		: IN STD_LOGIC ;
+		data57		: IN STD_LOGIC ;
+		data58		: IN STD_LOGIC ;
+		data59		: IN STD_LOGIC ;
+		data6		: IN STD_LOGIC ;
+		data60		: IN STD_LOGIC ;
+		data61		: IN STD_LOGIC ;
+		data62		: IN STD_LOGIC ;
+		data63		: IN STD_LOGIC ;
+		data7		: IN STD_LOGIC ;
+		data8		: IN STD_LOGIC ;
+		data9		: IN STD_LOGIC ;
+		sel		: IN STD_LOGIC_VECTOR (5 DOWNTO 0);
+		result		: OUT STD_LOGIC 
+	);
+end component;

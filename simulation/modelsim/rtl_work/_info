@@ -1,0 +1,2227 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/altera_lite/org/Chowdhury_CPU/simulation/modelsim
+Echowdhury_1bitdiv_dec7
+Z1 w1606350878
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_1BitDiv_Dec7.vhd
+Z6 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_1BitDiv_Dec7.vhd
+l0
+L16
+V=cZY:m@_TFjWF:WZIgKjK1
+!s100 PnFl@4k:R2^[M`ehZddFW0
+Z7 OV;C;10.4d;61
+31
+Z8 !s110 1606435024
+!i10b 1
+Z9 !s108 1606435024.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_1BitDiv_Dec7.vhd|
+Z11 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_1BitDiv_Dec7.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 22 chowdhury_1bitdiv_dec7 0 22 =cZY:m@_TFjWF:WZIgKjK1
+l30
+L21
+VcC[MDGli^Ib<o;C;I2JXW3
+!s100 AV=XcX[hQI?2h<DZi9eZd0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Echowdhury_1bitfullsubtractor_dec7
+Z14 w1606350915
+R2
+R3
+R4
+R0
+Z15 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_1BitFullSubtractor_Dec7.vhd
+Z16 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_1BitFullSubtractor_Dec7.vhd
+l0
+L16
+VcjK0DMZ_Y_:8cW4>YW:>f2
+!s100 ]BUR18I6kbdQmID=I0gHV3
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_1BitFullSubtractor_Dec7.vhd|
+Z18 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_1BitFullSubtractor_Dec7.vhd|
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 33 chowdhury_1bitfullsubtractor_dec7 0 22 cjK0DMZ_Y_:8cW4>YW:>f2
+l22
+L21
+VW8LJGXkHfkB5OG74^gjKJ0
+!s100 1kZ>ihVEQ_VBm<`Dk6=U92
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Echowdhury_32bitinstructionregister_dec7
+Z19 w1606324869
+R2
+R3
+R4
+R0
+Z20 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_32BitInstructionRegister_Dec7.vhd
+Z21 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_32BitInstructionRegister_Dec7.vhd
+l0
+L18
+VT@j[a>WL`;H75TkgM8DTR0
+!s100 BzhJeT<T>dACJJ7Q3=GaQ1
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_32BitInstructionRegister_Dec7.vhd|
+Z23 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_32BitInstructionRegister_Dec7.vhd|
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 39 chowdhury_32bitinstructionregister_dec7 0 22 T@j[a>WL`;H75TkgM8DTR0
+l29
+L25
+V_3[DeTRbQPOYV`ISP?OGZ0
+!s100 gAA3J3CDR>E1]`Vd>SVK:3
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Echowdhury_32bitregister_dec7
+Z24 w1606073375
+R2
+R3
+R4
+R0
+Z25 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_32BitRegister_Dec7.vhd
+Z26 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_32BitRegister_Dec7.vhd
+l0
+L18
+VO=:@3[IzGCG0[@EQ>P>TI3
+!s100 G<B3QaO`_VNe7XZB:dB:c0
+R7
+31
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_32BitRegister_Dec7.vhd|
+Z28 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_32BitRegister_Dec7.vhd|
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 28 chowdhury_32bitregister_dec7 0 22 O=:@3[IzGCG0[@EQ>P>TI3
+l29
+L25
+VDG5kWUBG_FB^aH84TkhWf3
+!s100 TCW7hgg]3[b8O2H3RkOgh0
+R7
+31
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
+Echowdhury_3portregisterfile_dec7
+Z29 w1606073758
+R3
+R4
+R0
+Z30 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_3PortRegisterFile_Dec7.vhd
+Z31 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_3PortRegisterFile_Dec7.vhd
+l0
+L18
+VfdYfJWD^h_T3HD1b3eo[_2
+!s100 ;_g]oOknK6AJa=D?:PmZh1
+R7
+31
+R8
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_3PortRegisterFile_Dec7.vhd|
+Z33 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_3PortRegisterFile_Dec7.vhd|
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R3
+R4
+DEx4 work 32 chowdhury_3portregisterfile_dec7 0 22 fdYfJWD^h_T3HD1b3eo[_2
+l116
+L26
+V<J<a:<ZCznVjm8L^n`DFY2
+!s100 EIdSbR9O=XJYhXoOhB[^I1
+R7
+31
+R8
+!i10b 1
+R9
+R32
+R33
+!i113 1
+R12
+R13
+Echowdhury_alu_dec7
+Z34 w1606352013
+R3
+R4
+R0
+Z35 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_ALU_Dec7.vhd
+Z36 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_ALU_Dec7.vhd
+l0
+L21
+VZ?@3eT1[n:7>GkkW:TMPg2
+!s100 JL9LSV3RDGOU@9Wa9Aj>13
+R7
+31
+R8
+!i10b 1
+R9
+Z37 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_ALU_Dec7.vhd|
+Z38 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_ALU_Dec7.vhd|
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R3
+R4
+DEx4 work 18 chowdhury_alu_dec7 0 22 Z?@3eT1[n:7>GkkW:TMPg2
+l263
+L32
+V:iJ^STk<0zeGNN:m[AW1h3
+!s100 Yh?WM`VQHJ0RagNPe2<8i3
+R7
+31
+R8
+!i10b 1
+R9
+R37
+R38
+!i113 1
+R12
+R13
+Echowdhury_and_dec7
+Z39 w1606350851
+R2
+R3
+R4
+R0
+Z40 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_And_Dec7.vhd
+Z41 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_And_Dec7.vhd
+l0
+L16
+V;oNi6?0b;VNVmUKN1kM882
+!s100 Phddg=oo`idR8iz5LXXVo0
+R7
+31
+R8
+!i10b 1
+R9
+Z42 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_And_Dec7.vhd|
+Z43 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_And_Dec7.vhd|
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 18 chowdhury_and_dec7 0 22 ;oNi6?0b;VNVmUKN1kM882
+l22
+L21
+VGmW9O]Ecka0SYmDBY]JBj0
+!s100 Bf[2Pa1m<]0F[H?HQ?_ZB2
+R7
+31
+R8
+!i10b 1
+R9
+R42
+R43
+!i113 1
+R12
+R13
+Echowdhury_compare_dec7
+Z44 w1605983025
+R3
+R4
+R0
+Z45 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_Compare_Dec7.vhd
+Z46 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_Compare_Dec7.vhd
+l0
+L16
+V]g0jfU_0@aSM35<TUhYZB0
+!s100 `:i@K40:D76R?7gj05l9]0
+R7
+31
+Z47 !s110 1606435025
+!i10b 1
+Z48 !s108 1606435025.000000
+Z49 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_Compare_Dec7.vhd|
+Z50 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_Compare_Dec7.vhd|
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R3
+R4
+DEx4 work 22 chowdhury_compare_dec7 0 22 ]g0jfU_0@aSM35<TUhYZB0
+l23
+L22
+VaVGTo`Vm>Y3V?nGlUoT6W2
+!s100 h>F=hAPgAjf_PcW_SA?0R0
+R7
+31
+R47
+!i10b 1
+R48
+R49
+R50
+!i113 1
+R12
+R13
+Echowdhury_cpucontroller_dec7
+Z51 w1606324188
+R3
+R4
+R0
+Z52 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_CPUController_Dec7.vhd
+Z53 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_CPUController_Dec7.vhd
+l0
+L22
+V[`Hn`zKl?ch;UjOVi?e]23
+!s100 ]ifb70bYB;akiKBjDRH7g3
+R7
+31
+R47
+!i10b 1
+R48
+Z54 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_CPUController_Dec7.vhd|
+Z55 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_CPUController_Dec7.vhd|
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R3
+R4
+DEx4 work 28 chowdhury_cpucontroller_dec7 0 22 [`Hn`zKl?ch;UjOVi?e]23
+l35
+L34
+Vo^jQ4QZP=VZ5PXUXR^1na3
+!s100 >cVH53]UNc3:AczLG8jh_3
+R7
+31
+R47
+!i10b 1
+R48
+R54
+R55
+!i113 1
+R12
+R13
+Echowdhury_datamemory_dec7
+Z56 w1606172878
+R3
+R4
+R0
+Z57 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_DataMemory_Dec7.vhd
+Z58 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_DataMemory_Dec7.vhd
+l0
+L18
+V6V7>0=HcWTfCT:UaK<h4a3
+!s100 E9ElIlGJH6nITP?FEYjZg1
+R7
+31
+R47
+!i10b 1
+R48
+Z59 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_DataMemory_Dec7.vhd|
+Z60 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_DataMemory_Dec7.vhd|
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R3
+R4
+DEx4 work 25 chowdhury_datamemory_dec7 0 22 6V7>0=HcWTfCT:UaK<h4a3
+l36
+L26
+VSjV6bA`27a=NGhWGzZX:T3
+!s100 EIZClV13bQZ]iG>Plmk3Y0
+R7
+31
+R47
+!i10b 1
+R48
+R59
+R60
+!i113 1
+R12
+R13
+Echowdhury_extender_dec7
+Z61 w1605991340
+R3
+R4
+R0
+Z62 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_Extender_Dec7.vhd
+Z63 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_Extender_Dec7.vhd
+l0
+L16
+V`@zFBV]a3Z=kVNjmoZVl_2
+!s100 :?CXcg>G>9PZSJLTRYc@J3
+R7
+31
+R47
+!i10b 1
+R48
+Z64 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_Extender_Dec7.vhd|
+Z65 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_Extender_Dec7.vhd|
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R3
+R4
+DEx4 work 23 chowdhury_extender_dec7 0 22 `@zFBV]a3Z=kVNjmoZVl_2
+l33
+L22
+VVdUF05ZEiCQ<M^JLB[=Y[0
+!s100 z7L7Dln`j]K]7fX5HgDCX1
+R7
+31
+R47
+!i10b 1
+R48
+R64
+R65
+!i113 1
+R12
+R13
+Echowdhury_instructionmemory_dec7
+Z66 w1606434975
+R3
+R4
+R0
+Z67 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_InstructionMemory_Dec7.vhd
+Z68 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_InstructionMemory_Dec7.vhd
+l0
+L16
+V9B61<NVkW73XYGSAQiY[A1
+!s100 `KbAIjTXR0SciMHXMdUQY0
+R7
+31
+R47
+!i10b 1
+R48
+Z69 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_InstructionMemory_Dec7.vhd|
+Z70 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_InstructionMemory_Dec7.vhd|
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R3
+R4
+DEx4 work 32 chowdhury_instructionmemory_dec7 0 22 9B61<NVkW73XYGSAQiY[A1
+l42
+L22
+VK^[D[U;zXfJbX4Q?YYcUE3
+!s100 nLI6TY:n393FaWzPUB77d2
+R7
+31
+R47
+!i10b 1
+R48
+R69
+R70
+!i113 1
+R12
+R13
+Echowdhury_lpm_1bit64x1mux_dec7
+Z71 w1606079078
+Z72 DPx3 lpm 14 lpm_components 0 22 PJ28@G3kVfi:?TUaV^5XM3
+R3
+R4
+R0
+Z73 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_1Bit64x1Mux_Dec7.vhd
+Z74 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_1Bit64x1Mux_Dec7.vhd
+l0
+L43
+VLPEkK>eY7eo6]`z6a401R2
+!s100 TAN7TaH@V^XK=0Q36i0?C0
+R7
+31
+Z75 !s110 1606435021
+!i10b 1
+Z76 !s108 1606435021.000000
+Z77 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_1Bit64x1Mux_Dec7.vhd|
+Z78 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_1Bit64x1Mux_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R72
+R3
+R4
+DEx4 work 30 chowdhury_lpm_1bit64x1mux_dec7 0 22 LPEkK>eY7eo6]`z6a401R2
+l188
+L116
+VhglhcN5g>:^denK;[ALYa2
+!s100 cgWTJPEN5zYV<E]nVB`n`3
+R7
+31
+R75
+!i10b 1
+R76
+R77
+R78
+!i113 1
+R12
+R13
+Echowdhury_lpm_32bit2x1mux_dec7
+Z79 w1605971428
+R72
+R3
+R4
+R0
+Z80 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32Bit2x1Mux_Dec7.vhd
+Z81 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32Bit2x1Mux_Dec7.vhd
+l0
+L43
+V<<AJj^zg2f_l]UciMPQXY2
+!s100 QmF?lZZiYIO:mk9iQn@lc0
+R7
+31
+Z82 !s110 1606435022
+!i10b 1
+Z83 !s108 1606435022.000000
+Z84 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32Bit2x1Mux_Dec7.vhd|
+Z85 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32Bit2x1Mux_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R72
+R3
+R4
+DEx4 work 30 chowdhury_lpm_32bit2x1mux_dec7 0 22 <<AJj^zg2f_l]UciMPQXY2
+l65
+L54
+V>E[zI7KK@j`3DW[Icl6=<0
+!s100 kY[Le4m6jJ7[:SHm]Q3kl2
+R7
+31
+R82
+!i10b 1
+R83
+R84
+R85
+!i113 1
+R12
+R13
+Echowdhury_lpm_32bit32x1mux_dec7
+Z86 w1605973311
+R72
+R3
+R4
+R0
+Z87 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32Bit32x1Mux_Dec7.vhd
+Z88 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32Bit32x1Mux_Dec7.vhd
+l0
+L43
+VYE]FQ`EBT0=j9oRDmQZEK2
+!s100 LfV7aAJ`ZDOe0iGmGFGBP1
+R7
+31
+R82
+!i10b 1
+R83
+Z89 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32Bit32x1Mux_Dec7.vhd|
+Z90 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32Bit32x1Mux_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R72
+R3
+R4
+DEx4 work 31 chowdhury_lpm_32bit32x1mux_dec7 0 22 YE]FQ`EBT0=j9oRDmQZEK2
+l123
+L84
+Vaf;0:eb^gA^69fGga[FHh0
+!s100 DUUzn]C@:<C>dT9Kc>8BS3
+R7
+31
+R82
+!i10b 1
+R83
+R89
+R90
+!i113 1
+R12
+R13
+Echowdhury_lpm_32bit64x1mux_dec7
+Z91 w1606079029
+R72
+R3
+R4
+R0
+Z92 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32Bit64x1Mux_Dec7.vhd
+Z93 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32Bit64x1Mux_Dec7.vhd
+l0
+L43
+V]i7m3gBN4GTiCBi9f754D2
+!s100 @ILPiL`3B^1Ao30P[5:gN3
+R7
+31
+R82
+!i10b 1
+R83
+Z94 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32Bit64x1Mux_Dec7.vhd|
+Z95 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32Bit64x1Mux_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R72
+R3
+R4
+DEx4 work 31 chowdhury_lpm_32bit64x1mux_dec7 0 22 ]i7m3gBN4GTiCBi9f754D2
+l187
+L116
+Vi:>==RNb5^AgOn^LIjN<H3
+!s100 ZS_dXZ>VkDTo^4DT9bUF61
+R7
+31
+R82
+!i10b 1
+R83
+R94
+R95
+!i113 1
+R12
+R13
+Echowdhury_lpm_32bitadder_dec7
+Z96 w1605983733
+R3
+R4
+R0
+Z97 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitAdder_Dec7.vhd
+Z98 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitAdder_Dec7.vhd
+l0
+L43
+Vf]Q0a8P1n5kl;<dDoQ1K[2
+!s100 JC6c:_MN@6NKQ0kccc4753
+R7
+31
+R82
+!i10b 1
+R83
+Z99 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitAdder_Dec7.vhd|
+Z100 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitAdder_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 29 chowdhury_lpm_32bitadder_dec7 0 22 f]Q0a8P1n5kl;<dDoQ1K[2
+l79
+L55
+Vn@:28K94KEnM>4AMzAOE?0
+!s100 1=QhWZ^28LceK0ZZ^K7`E2
+R7
+31
+R82
+!i10b 1
+R83
+R99
+R100
+!i113 1
+R12
+R13
+Echowdhury_lpm_32bitshiftarithmetic_dec7
+Z101 w1605981114
+R3
+R4
+R0
+Z102 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitShiftArithmetic_Dec7.vhd
+Z103 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitShiftArithmetic_Dec7.vhd
+l0
+L43
+VEmIea8?bK2^Ka`Y25>JA02
+!s100 f[mS0An=l0RzH]BD=odO62
+R7
+31
+R82
+!i10b 1
+R83
+Z104 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitShiftArithmetic_Dec7.vhd|
+Z105 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitShiftArithmetic_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 39 chowdhury_lpm_32bitshiftarithmetic_dec7 0 22 EmIea8?bK2^Ka`Y25>JA02
+l78
+L55
+VgYkNeRAlC[98G?H8XQ34=3
+!s100 gBGK`0A;iSz3?j1VHmiaT2
+R7
+31
+R82
+!i10b 1
+R83
+R104
+R105
+!i113 1
+R12
+R13
+Echowdhury_lpm_32bitshiftlogical_dec7
+Z106 w1605981034
+R3
+R4
+R0
+Z107 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitShiftLogical_Dec7.vhd
+Z108 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitShiftLogical_Dec7.vhd
+l0
+L43
+V?_4YdUH^bRZ[glW03zAWd2
+!s100 fQ7Q_a7am6lcCN>XjSXfd1
+R7
+31
+R82
+!i10b 1
+R83
+Z109 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitShiftLogical_Dec7.vhd|
+Z110 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitShiftLogical_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 36 chowdhury_lpm_32bitshiftlogical_dec7 0 22 ?_4YdUH^bRZ[glW03zAWd2
+l78
+L55
+VCcRo>cP88IH:l7FI4QV3g2
+!s100 gMf6cU``5NQGKnZN]7ASo2
+R7
+31
+R82
+!i10b 1
+R83
+R109
+R110
+!i113 1
+R12
+R13
+Echowdhury_lpm_32bitsignedaddsub_dec7
+Z111 w1605977666
+R3
+R4
+R0
+Z112 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitSignedAddSub_Dec7.vhd
+Z113 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitSignedAddSub_Dec7.vhd
+l0
+L43
+V<eSYhB65MkgzBJInZHn>l2
+!s100 cVQ=UhH`]>L8d@2WBGF[P1
+R7
+31
+R82
+!i10b 1
+R83
+Z114 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitSignedAddSub_Dec7.vhd|
+Z115 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitSignedAddSub_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 36 chowdhury_lpm_32bitsignedaddsub_dec7 0 22 <eSYhB65MkgzBJInZHn>l2
+l79
+L55
+V4OD]=eaZ3B<Ih:Sd[omag3
+!s100 AEnHfhEKA?IC8Q^gjSdHE3
+R7
+31
+R82
+!i10b 1
+R83
+R114
+R115
+!i113 1
+R12
+R13
+Echowdhury_lpm_32bitsignedcomparator_dec7
+Z116 w1605980164
+R3
+R4
+R0
+Z117 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitSignedComparator_Dec7.vhd
+Z118 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitSignedComparator_Dec7.vhd
+l0
+L43
+VkJ<T:EM]o33DVdgVe62Z70
+!s100 RjoEZhBfKFhFLOlVEWCo=3
+R7
+31
+Z119 !s110 1606435023
+!i10b 1
+Z120 !s108 1606435023.000000
+Z121 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitSignedComparator_Dec7.vhd|
+Z122 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitSignedComparator_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 40 chowdhury_lpm_32bitsignedcomparator_dec7 0 22 kJ<T:EM]o33DVdgVe62Z70
+l75
+L54
+VSHDF1H3g3ojg`i`f2JfhO0
+!s100 YTbknQXl4HLo19oajQL`:2
+R7
+31
+R119
+!i10b 1
+R120
+R121
+R122
+!i113 1
+R12
+R13
+Echowdhury_lpm_32bitunsignedaddsub_dec7
+Z123 w1605977712
+R3
+R4
+R0
+Z124 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitUnsignedAddSub_Dec7.vhd
+Z125 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitUnsignedAddSub_Dec7.vhd
+l0
+L43
+V`7Am=j;4:K@1QhXjI_JUz3
+!s100 IBj]N;bcNDMGAL<GSihm]2
+R7
+31
+R119
+!i10b 1
+R120
+Z126 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitUnsignedAddSub_Dec7.vhd|
+Z127 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitUnsignedAddSub_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 38 chowdhury_lpm_32bitunsignedaddsub_dec7 0 22 `7Am=j;4:K@1QhXjI_JUz3
+l79
+L55
+V@Z`ET=[X^YQ7@kU=Q4cIf2
+!s100 Ei4Saaob4EKHVN9_YJoU60
+R7
+31
+R119
+!i10b 1
+R120
+R126
+R127
+!i113 1
+R12
+R13
+Echowdhury_lpm_32bitunsignedcomparator_dec7
+Z128 w1605980204
+R3
+R4
+R0
+Z129 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitUnsignedComparator_Dec7.vhd
+Z130 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitUnsignedComparator_Dec7.vhd
+l0
+L43
+V0ReTfFdPb45m53^8DYNeN2
+!s100 Y2`>GQA`C4b_WfBoKR8hZ2
+R7
+31
+R119
+!i10b 1
+R120
+Z131 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitUnsignedComparator_Dec7.vhd|
+Z132 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_32BitUnsignedComparator_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 42 chowdhury_lpm_32bitunsignedcomparator_dec7 0 22 0ReTfFdPb45m53^8DYNeN2
+l75
+L54
+VEVmg5YdC_Q3MF1gZBIlEB2
+!s100 [O62[ghCI0E2C<64fnJGK3
+R7
+31
+R119
+!i10b 1
+R120
+R131
+R132
+!i113 1
+R12
+R13
+Echowdhury_lpm_5bit2x1mux_dec7
+Z133 w1605971401
+R72
+R3
+R4
+R0
+Z134 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_5Bit2x1Mux_Dec7.vhd
+Z135 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_5Bit2x1Mux_Dec7.vhd
+l0
+L43
+V0aQCMPJL:FVfValzeNL]g1
+!s100 MiRzjeJh3;;YgON0FNz5h0
+R7
+31
+R119
+!i10b 1
+R120
+Z136 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_5Bit2x1Mux_Dec7.vhd|
+Z137 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_5Bit2x1Mux_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R72
+R3
+R4
+DEx4 work 29 chowdhury_lpm_5bit2x1mux_dec7 0 22 0aQCMPJL:FVfValzeNL]g1
+l65
+L54
+VNmbGjb93[0K16@>AfWCkI1
+!s100 d=:6V=Lh4QSo@FYXX`km72
+R7
+31
+R119
+!i10b 1
+R120
+R136
+R137
+!i113 1
+R12
+R13
+Echowdhury_lpm_5x32decoder_dec7
+Z138 w1605973049
+R3
+R4
+R0
+Z139 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_5x32Decoder_Dec7.vhd
+Z140 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_5x32Decoder_Dec7.vhd
+l0
+L43
+VP2<LMa8U2_YYno1T_DCHg2
+!s100 DCNJ:TTKDYKIM2J9iQm?H2
+R7
+31
+R119
+!i10b 1
+R120
+Z141 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_5x32Decoder_Dec7.vhd|
+Z142 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_5x32Decoder_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 30 chowdhury_lpm_5x32decoder_dec7 0 22 P2<LMa8U2_YYno1T_DCHg2
+l133
+L83
+VPKb]Y01=6Pk2D1?G>M;_F3
+!s100 adcX<z<YF<QJckUCU[>@J3
+R7
+31
+R119
+!i10b 1
+R120
+R141
+R142
+!i113 1
+R12
+R13
+Echowdhury_lpm_counter_dec7
+Z143 w1606080849
+R3
+R4
+R0
+Z144 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_Counter_Dec7.vhd
+Z145 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_Counter_Dec7.vhd
+l0
+L43
+VCX0228g6mIzkS5UW7^m>>2
+!s100 SbekAZ?nfZDA9FRnSBhI^1
+R7
+31
+R119
+!i10b 1
+R120
+Z146 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_Counter_Dec7.vhd|
+Z147 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_Counter_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 26 chowdhury_lpm_counter_dec7 0 22 CX0228g6mIzkS5UW7^m>>2
+l81
+L54
+V9BA31iiF@QaNHI6A7HO_71
+!s100 =0eB77Rkm9LXYzI2S5<Mc2
+R7
+31
+R119
+!i10b 1
+R120
+R146
+R147
+!i113 1
+R12
+R13
+Echowdhury_lpm_datamemory_dec7
+Z148 w1606172811
+Z149 DPx9 altera_mf 20 altera_mf_components 0 22 JIZVPUohD7dNa?8:C5^LG2
+R3
+R4
+R0
+Z150 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_DataMemory_Dec7.vhd
+Z151 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_DataMemory_Dec7.vhd
+l0
+L43
+VNH;0jd>6b9Gh[4PRz@fHh1
+!s100 N@DNLJF0=nJJV?JaDFUI90
+R7
+31
+R119
+!i10b 1
+R120
+Z152 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_DataMemory_Dec7.vhd|
+Z153 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_DataMemory_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R149
+R3
+R4
+DEx4 work 29 chowdhury_lpm_datamemory_dec7 0 22 NH;0jd>6b9Gh[4PRz@fHh1
+l59
+L55
+VXcoX2`A1G3V0GaC9g6Z^80
+!s100 zD:fjSaKd;=Y`P_KB?SR33
+R7
+31
+R119
+!i10b 1
+R120
+R152
+R153
+!i113 1
+R12
+R13
+Echowdhury_lpm_instructionmemory_dec7
+Z154 w1606321359
+R149
+R3
+R4
+R0
+Z155 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_InstructionMemory_Dec7.vhd
+Z156 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_InstructionMemory_Dec7.vhd
+l0
+L43
+V8no3a@S?I8J=eFS6madWj2
+!s100 FQ56aLlj`L18nSca[l4k10
+R7
+31
+R119
+!i10b 1
+R120
+Z157 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_InstructionMemory_Dec7.vhd|
+Z158 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_LPM_InstructionMemory_Dec7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R149
+R3
+R4
+DEx4 work 36 chowdhury_lpm_instructionmemory_dec7 0 22 8no3a@S?I8J=eFS6madWj2
+l59
+L55
+VEf0ImKojSYV>:;34`WTFd3
+!s100 ^29h[@a`89PDo<P1XHohE3
+R7
+31
+R119
+!i10b 1
+R120
+R157
+R158
+!i113 1
+R12
+R13
+Echowdhury_nalu_dec7
+Z159 w1606400606
+R2
+R3
+R4
+R0
+Z160 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_NALU_Dec7.vhd
+Z161 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_NALU_Dec7.vhd
+l0
+L20
+V7AB[0D7KO:NM_C0a51I_Q1
+!s100 C[aeIo]@bHDHE;O1R7=a_1
+R7
+31
+R47
+!i10b 1
+R48
+Z162 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_NALU_Dec7.vhd|
+Z163 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_NALU_Dec7.vhd|
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 19 chowdhury_nalu_dec7 0 22 7AB[0D7KO:NM_C0a51I_Q1
+l56
+L29
+Vc@`MU[ZmXGbleC=X7UCiT1
+!s100 ob0Y@iZT?6PJ5g81enAKH3
+R7
+31
+R47
+!i10b 1
+R48
+R162
+R163
+!i113 1
+R12
+R13
+Echowdhury_nor_dec7
+Z164 w1606350632
+R2
+R3
+R4
+R0
+Z165 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_Nor_Dec7.vhd
+Z166 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_Nor_Dec7.vhd
+l0
+L16
+VTU3cFe>B1R`6YL?6[]jBh1
+!s100 OlXkhij^N_KFVb?^K7HK90
+R7
+31
+R47
+!i10b 1
+R48
+Z167 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_Nor_Dec7.vhd|
+Z168 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_Nor_Dec7.vhd|
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 18 chowdhury_nor_dec7 0 22 TU3cFe>B1R`6YL?6[]jBh1
+l22
+L21
+V4QDLi=9[USI6Gl8ST]N5J0
+!s100 ndGYf:mC_dnLXPZa450Re3
+R7
+31
+R47
+!i10b 1
+R48
+R167
+R168
+!i113 1
+R12
+R13
+Echowdhury_or_dec7
+Z169 w1606350819
+R2
+R3
+R4
+R0
+Z170 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_Or_Dec7.vhd
+Z171 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_Or_Dec7.vhd
+l0
+L16
+VCSGM>:S35;3LkFd;AYIP>3
+!s100 f6;AWZAPI3gco^m;I7WkJ3
+R7
+31
+R47
+!i10b 1
+R48
+Z172 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_Or_Dec7.vhd|
+Z173 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_Or_Dec7.vhd|
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 17 chowdhury_or_dec7 0 22 CSGM>:S35;3LkFd;AYIP>3
+l22
+L21
+V0M9O^o4:d]DR:=JJ7CONj2
+!s100 fPmD5B[oed_2cFKDGok:E3
+R7
+31
+R47
+!i10b 1
+R48
+R172
+R173
+!i113 1
+R12
+R13
+Pchowdhury_package_1bitdiv_dec7
+R3
+R4
+R1
+R0
+R5
+R6
+l0
+L4
+VIMeeZL;<TJL<jLT5SB[Ab2
+!s100 ^0li8MK1B=m?Nc6Z8X<M90
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Pchowdhury_package_1bitfullsubtractor_dec7
+R3
+R4
+R14
+R0
+R15
+R16
+l0
+L4
+VEC:Voa[bcIAeY9E7A1WM`2
+!s100 k9ITiLg>bgU6h;NfL@8m31
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Pchowdhury_package_32bitinstructionregister_dec7
+R3
+R4
+R19
+R0
+R20
+R21
+l0
+L4
+V:XBa7SUo=GoVL]1i@JJ?^3
+!s100 PR=ic2KaLDLM;QIS1SV972
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Pchowdhury_package_32bitregister_dec7
+R3
+R4
+R24
+R0
+R25
+R26
+l0
+L4
+V8N9mfTZ5d]gjo3g;YSO^d0
+!s100 82CUZcP_]1:KV:Ci0hjQL1
+R7
+31
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
+Pchowdhury_package_3portregisterfile_dec7
+R3
+R4
+R29
+R0
+R30
+R31
+l0
+L4
+V4UQgDne8mjDNCA^`EMjoX3
+!s100 Q73hHe]43URHX:_4ji11z3
+R7
+31
+R8
+!i10b 1
+R9
+R32
+R33
+!i113 1
+R12
+R13
+Pchowdhury_package_alu_dec7
+R3
+R4
+R34
+R0
+R35
+R36
+l0
+L4
+VN=FFFMI9PT^VMU]BT_iTM2
+!s100 SOEg39^d^nQIWijh@aMEE2
+R7
+31
+R8
+!i10b 1
+R9
+R37
+R38
+!i113 1
+R12
+R13
+Pchowdhury_package_and_dec7
+R3
+R4
+R39
+R0
+R40
+R41
+l0
+L4
+VaiKSkS0PQ9Un>S@B^df>S2
+!s100 Pz>`K]Z6Nnln0KT=X`kSg2
+R7
+31
+R8
+!i10b 1
+R9
+R42
+R43
+!i113 1
+R12
+R13
+Pchowdhury_package_compare_dec7
+R3
+R4
+R44
+R0
+R45
+R46
+l0
+L4
+VR:1^[gL:[in<9gJ`l?bGW1
+!s100 9Oh]oojIe=OV;>RbF7YFT1
+R7
+31
+R47
+!i10b 1
+R48
+R49
+R50
+!i113 1
+R12
+R13
+Pchowdhury_package_cpucontroller_dec7
+R3
+R4
+R51
+R0
+R52
+R53
+l0
+L4
+Vm7@C0k4i:CPC2O1:k@gkc1
+!s100 e;eTh3P7ePCf>zZ_[T[Pg3
+R7
+31
+R47
+!i10b 1
+R48
+R54
+R55
+!i113 1
+R12
+R13
+Pchowdhury_package_datamemory_dec7
+R3
+R4
+R56
+R0
+R57
+R58
+l0
+L4
+VJ@nQZLcCkYMOY[Od<A2:F3
+!s100 4oWSTD1OT1QzU=dT:Tkin2
+R7
+31
+R47
+!i10b 1
+R48
+R59
+R60
+!i113 1
+R12
+R13
+Pchowdhury_package_extender_dec7
+R3
+R4
+R61
+R0
+R62
+R63
+l0
+L4
+V=CeCY>Y7X^mS?]4:UZo3Q3
+!s100 ^z7RecQJIVd8?8HhXAFWS0
+R7
+31
+R47
+!i10b 1
+R48
+R64
+R65
+!i113 1
+R12
+R13
+Pchowdhury_package_instructionmemory_dec7
+R3
+R4
+R66
+R0
+R67
+R68
+l0
+L4
+VPn^bC0>GNVjO]@CjjhcW]1
+!s100 ^<^YNDkL5ol::4@AK:kC?0
+R7
+31
+R47
+!i10b 1
+R48
+R69
+R70
+!i113 1
+R12
+R13
+Pchowdhury_package_nalu_dec7
+R3
+R4
+R159
+R0
+R160
+R161
+l0
+L4
+Vj91K_]mHn>48kSDgjof910
+!s100 PdEjM]6mW<JIS1SKgMa7n1
+R7
+31
+R47
+!i10b 1
+R48
+R162
+R163
+!i113 1
+R12
+R13
+Pchowdhury_package_nor_dec7
+R3
+R4
+R164
+R0
+R165
+R166
+l0
+L4
+V>jgcBaH]SOmlXLhTN^MNG2
+!s100 gU5HTdH1;OZkm;4gE4o;G2
+R7
+31
+R47
+!i10b 1
+R48
+R167
+R168
+!i113 1
+R12
+R13
+Pchowdhury_package_or_dec7
+R3
+R4
+R169
+R0
+R170
+R171
+l0
+L4
+V;A9K0Vgei>DDzVc[39A0j3
+!s100 2gQCn;6a5l_f@boDb;W<>0
+R7
+31
+R47
+!i10b 1
+R48
+R172
+R173
+!i113 1
+R12
+R13
+Pchowdhury_package_shiftleftlogical_dec7
+R3
+R4
+Z174 w1606350433
+R0
+Z175 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_ShiftLeftLogical_Dec7.vhd
+Z176 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_ShiftLeftLogical_Dec7.vhd
+l0
+L4
+VebnaF329GZ2gzk[_R[1Gg3
+!s100 GU12=b4bR06mFRe@k6@BR1
+R7
+31
+Z177 !s110 1606435027
+!i10b 1
+Z178 !s108 1606435027.000000
+Z179 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_ShiftLeftLogical_Dec7.vhd|
+Z180 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_ShiftLeftLogical_Dec7.vhd|
+!i113 1
+R12
+R13
+Pchowdhury_package_shiftrightarithmetic_dec7
+R3
+R4
+Z181 w1606350315
+R0
+Z182 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_ShiftRightArithmetic_Dec7.vhd
+Z183 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_ShiftRightArithmetic_Dec7.vhd
+l0
+L4
+VYf62lRUoeIPGlMWiaL=JA3
+!s100 ^VFOnEbd`9Dl9:ST>EP6g3
+R7
+31
+R177
+!i10b 1
+R178
+Z184 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_ShiftRightArithmetic_Dec7.vhd|
+Z185 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_ShiftRightArithmetic_Dec7.vhd|
+!i113 1
+R12
+R13
+Pchowdhury_package_shiftrightlogical_dec7
+R3
+R4
+Z186 w1606350377
+R0
+Z187 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_ShiftRightLogical_Dec7.vhd
+Z188 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_ShiftRightLogical_Dec7.vhd
+l0
+L4
+Vc8a`=YBW>AWNz`N11YS3?0
+!s100 cnAhlR;=IYcI?_WP`F[i11
+R7
+31
+Z189 !s110 1606435028
+!i10b 1
+Z190 !s108 1606435028.000000
+Z191 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_ShiftRightLogical_Dec7.vhd|
+Z192 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_ShiftRightLogical_Dec7.vhd|
+!i113 1
+R12
+R13
+Pchowdhury_package_signedaddsub_dec7
+R3
+R4
+Z193 w1605985407
+R0
+Z194 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_SignedAddSub_Dec7.vhd
+Z195 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_SignedAddSub_Dec7.vhd
+l0
+L4
+V6b4cFi`kP?0P^eaPAl3=j1
+!s100 BT`2?1eI;`[gk03TQ7nj@2
+R7
+31
+R189
+!i10b 1
+R190
+Z196 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_SignedAddSub_Dec7.vhd|
+Z197 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_SignedAddSub_Dec7.vhd|
+!i113 1
+R12
+R13
+Pchowdhury_package_signedsetlessthan_dec7
+R3
+R4
+Z198 w1606350516
+R0
+Z199 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_SignedSetLessThan_Dec7.vhd
+Z200 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_SignedSetLessThan_Dec7.vhd
+l0
+L4
+V3HkH]h2nzV=CLFNYcYMLa2
+!s100 NcVelNhNz4IPJ_S0gYWaR0
+R7
+31
+R189
+!i10b 1
+R190
+Z201 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_SignedSetLessThan_Dec7.vhd|
+Z202 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_SignedSetLessThan_Dec7.vhd|
+!i113 1
+R12
+R13
+Pchowdhury_package_singlecyclecpu_dec7
+R3
+R4
+Z203 w1606434535
+R0
+Z204 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_SingleCycleCPU_Dec7.vhd
+Z205 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_SingleCycleCPU_Dec7.vhd
+l0
+L4
+VC]8PSie9N16_9nO01dbQd2
+!s100 D^B:78Bz[GCiU79j`cIOR3
+R7
+31
+R189
+!i10b 1
+R190
+Z206 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_SingleCycleCPU_Dec7.vhd|
+Z207 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_SingleCycleCPU_Dec7.vhd|
+!i113 1
+R12
+R13
+Pchowdhury_package_unsignedaddsub_dec7
+R3
+R4
+Z208 w1605985417
+R0
+Z209 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedAddSub_Dec7.vhd
+Z210 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedAddSub_Dec7.vhd
+l0
+L4
+V2zWJ29cBT>gR3?NlO<OHl3
+!s100 d]FYM1W=E;HGj7zzP`HT80
+R7
+31
+R189
+!i10b 1
+R190
+Z211 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedAddSub_Dec7.vhd|
+Z212 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedAddSub_Dec7.vhd|
+!i113 1
+R12
+R13
+Pchowdhury_package_unsigneddivider_dec7
+R3
+R4
+Z213 w1605984841
+R0
+Z214 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedDivider_Dec7.vhd
+Z215 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedDivider_Dec7.vhd
+l0
+L4
+V;eV1B`od9Y_P0hcg6VkDn3
+!s100 4C7RYBNS=a`M0<Nl7Unek3
+R7
+31
+R189
+!i10b 1
+R190
+Z216 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedDivider_Dec7.vhd|
+Z217 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedDivider_Dec7.vhd|
+!i113 1
+R12
+R13
+Pchowdhury_package_unsignedmultiplier_dec7
+R3
+R4
+Z218 w1605983806
+R0
+Z219 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedMultiplier_Dec7.vhd
+Z220 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedMultiplier_Dec7.vhd
+l0
+L4
+VGXAzWN[[9fe=U_lZGo9hO3
+!s100 A<8gSV2c;lBc:6:7kG8oC3
+R7
+31
+Z221 !s110 1606435029
+!i10b 1
+R190
+Z222 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedMultiplier_Dec7.vhd|
+Z223 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedMultiplier_Dec7.vhd|
+!i113 1
+R12
+R13
+Pchowdhury_package_unsignedsetlessthan_dec7
+R3
+R4
+Z224 w1606350591
+R0
+Z225 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedSetLessThan_Dec7.vhd
+Z226 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedSetLessThan_Dec7.vhd
+l0
+L4
+VYYQUijWi0NIXKzSW_naJk1
+!s100 DMZ^blkMS7J7amB4Kadmd1
+R7
+31
+R221
+!i10b 1
+Z227 !s108 1606435029.000000
+Z228 !s90 -reportprogress|300|-93|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedSetLessThan_Dec7.vhd|
+Z229 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_UnsignedSetLessThan_Dec7.vhd|
+!i113 1
+R12
+R13
+Echowdhury_shiftleftlogical_dec7
+R174
+R2
+R3
+R4
+R0
+R175
+R176
+l0
+L18
+V4JlZQeL[gR9J7cjZ0z3c33
+!s100 R=D5W^g31K^>NTR>BJfKk2
+R7
+31
+R177
+!i10b 1
+R178
+R179
+R180
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 31 chowdhury_shiftleftlogical_dec7 0 22 4JlZQeL[gR9J7cjZ0z3c33
+l35
+L25
+VKJ]V0^b7o=N;?7ZdNeP4_2
+!s100 ic5=kljoMk_7PVSkT_VaX3
+R7
+31
+R177
+!i10b 1
+R178
+R179
+R180
+!i113 1
+R12
+R13
+Echowdhury_shiftrightarithmetic_dec7
+R181
+R2
+R3
+R4
+R0
+R182
+R183
+l0
+L18
+VMj0?XW>4Ld8HS;:hSnnU21
+!s100 TH1iOPzW>2EWY_z;z4[U91
+R7
+31
+R177
+!i10b 1
+R178
+R184
+R185
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 35 chowdhury_shiftrightarithmetic_dec7 0 22 Mj0?XW>4Ld8HS;:hSnnU21
+l35
+L25
+V6TbFf?;P]fM<UPcmnMVKX2
+!s100 aEb0fc_@Qh_QoQ_J?@ek93
+R7
+31
+R177
+!i10b 1
+R178
+R184
+R185
+!i113 1
+R12
+R13
+Echowdhury_shiftrightlogical_dec7
+R186
+R2
+R3
+R4
+R0
+R187
+R188
+l0
+L18
+VdkJk3A2O;`Ne=_SeP;ig51
+!s100 m^WPHfacX`;66eL;i^ef_0
+R7
+31
+R189
+!i10b 1
+R190
+R191
+R192
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 32 chowdhury_shiftrightlogical_dec7 0 22 dkJk3A2O;`Ne=_SeP;ig51
+l35
+L25
+V=c`S20V;oZTl87PZ<Pnhg2
+!s100 h2oaD>Xjdk2d5Ub?IYa9M3
+R7
+31
+R189
+!i10b 1
+R190
+R191
+R192
+!i113 1
+R12
+R13
+Echowdhury_signedaddsub_dec7
+R193
+R2
+R3
+R4
+R0
+R194
+R195
+l0
+L18
+Va9gb:?N7n4@Mzd47mRiDB1
+!s100 VGKY_VJlWf8=UfFPkn0iN2
+R7
+31
+R189
+!i10b 1
+R190
+R196
+R197
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 27 chowdhury_signedaddsub_dec7 0 22 a9gb:?N7n4@Mzd47mRiDB1
+l35
+L25
+Ve_U?UgP=kZDI>;JzC^KWG0
+!s100 EP[lCJd>ie;lWemKB4KQJ3
+R7
+31
+R189
+!i10b 1
+R190
+R196
+R197
+!i113 1
+R12
+R13
+Echowdhury_signedsetlessthan_dec7
+R198
+R2
+R3
+R4
+R0
+R199
+R200
+l0
+L16
+Vnl<R2nG^6V1`hJV9n:`Gc0
+!s100 k_:TTeRoNX:EEG`clN[An2
+R7
+31
+R189
+!i10b 1
+R190
+R201
+R202
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 32 chowdhury_signedsetlessthan_dec7 0 22 nl<R2nG^6V1`hJV9n:`Gc0
+l32
+L21
+V7=YMECljUPd`2YZ76DoYF3
+!s100 zRLdmi<M5=<X6EDW2oh;70
+R7
+31
+R189
+!i10b 1
+R190
+R201
+R202
+!i113 1
+R12
+R13
+Echowdhury_singlecyclecpu_dec7
+R203
+R2
+R3
+R4
+R0
+R204
+R205
+l0
+L15
+VPoQAEb=<Q0Ki2ZfG1jj]S1
+!s100 Rde;mcmPdL<:E;zF6HaWO3
+R7
+31
+R189
+!i10b 1
+R190
+R206
+R207
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 29 chowdhury_singlecyclecpu_dec7 0 22 PoQAEb=<Q0Ki2ZfG1jj]S1
+l141
+L19
+VS]WHj2fWU1j@EY[2LRm582
+!s100 Y]X=2giPD@BR@c5^dXn5g3
+R7
+31
+R189
+!i10b 1
+R190
+R206
+R207
+!i113 1
+R12
+R13
+Echowdhury_singlecyclecpu_testbench_dec7
+Z230 w1606434687
+R2
+R3
+R4
+R0
+Z231 8D:/altera_lite/org/Chowdhury_CPU/Chowdhury_SingleCycleCPU_Testbench_Dec7.vhd
+Z232 FD:/altera_lite/org/Chowdhury_CPU/Chowdhury_SingleCycleCPU_Testbench_Dec7.vhd
+l0
+L5
+VZaioUYkeUOG;25?cc>CFi1
+!s100 VL?E9E5k0WjKd<g9n]gE]3
+R7
+32
+R189
+!i10b 1
+R190
+Z233 !s90 -reportprogress|300|-work|work|D:/altera_lite/org/Chowdhury_CPU/Chowdhury_SingleCycleCPU_Testbench_Dec7.vhd|
+Z234 !s107 D:/altera_lite/org/Chowdhury_CPU/Chowdhury_SingleCycleCPU_Testbench_Dec7.vhd|
+!i113 1
+Z235 o-work work
+R13
+Achowdhury_test
+R2
+R3
+R4
+DEx4 work 39 chowdhury_singlecyclecpu_testbench_dec7 0 22 ZaioUYkeUOG;25?cc>CFi1
+l26
+L8
+VmhYkAPL[kCNV<:OB:cFOG0
+!s100 gY2?m0gHIBh?a;7O?8o381
+R7
+32
+R189
+!i10b 1
+R190
+R233
+R234
+!i113 1
+R235
+R13
+Echowdhury_unsignedaddsub_dec7
+R208
+R2
+R3
+R4
+R0
+R209
+R210
+l0
+L18
+V4RiXXQ>T]nFkBS>U3h@`93
+!s100 nIB0YFam5eNbo^O6UY>Nb3
+R7
+31
+R189
+!i10b 1
+R190
+R211
+R212
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 29 chowdhury_unsignedaddsub_dec7 0 22 4RiXXQ>T]nFkBS>U3h@`93
+l35
+L25
+VeIUW3ihk4AH>GToe;E@Ih2
+!s100 W:^ZPzeGNVj[ARA6[`EkG3
+R7
+31
+R189
+!i10b 1
+R190
+R211
+R212
+!i113 1
+R12
+R13
+Echowdhury_unsigneddivider_dec7
+R213
+R2
+R3
+R4
+R0
+R214
+R215
+l0
+L16
+V?dR8aC9i1OVa5:e7DRD6`2
+!s100 TM`<kB:chjmnzW5k8i]Ta0
+R7
+31
+R189
+!i10b 1
+R190
+R216
+R217
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+DEx4 work 30 chowdhury_unsigneddivider_dec7 0 22 ?dR8aC9i1OVa5:e7DRD6`2
+l45
+L21
+V>NU0RM;3G;m42ZEWDBKFk3
+!s100 lWz]9G0oQ?L:;dTFd0Kik3
+R7
+31
+R189
+!i10b 1
+R190
+R216
+R217
+!i113 1
+R12
+R13
+Echowdhury_unsignedmultiplier_dec7
+R218
+Z236 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R2
+R3
+R4
+R0
+R219
+R220
+l0
+L17
+Vl`m`]:8cV4hgmeE7z8GAV0
+!s100 JPj`i>_HR0elJZZzWQFJP0
+R7
+31
+R221
+!i10b 1
+R190
+R222
+R223
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R236
+R2
+R3
+R4
+DEx4 work 33 chowdhury_unsignedmultiplier_dec7 0 22 l`m`]:8cV4hgmeE7z8GAV0
+l52
+L22
+V8BAdn3kbZE4DEMhHjo>Gi1
+!s100 RSGX36DF4I]RMbjC1;<Z62
+R7
+31
+R221
+!i10b 1
+R190
+R222
+R223
+!i113 1
+R12
+R13
+Echowdhury_unsignedsetlessthan_dec7
+R224
+R2
+R3
+R4
+R0
+R225
+R226
+l0
+L16
+V8f3mY=ojfH?66^ln4JP8=0
+!s100 PKFh>7:BDnRAL[Z7>Co252
+R7
+31
+R221
+!i10b 1
+R227
+R228
+R229
+!i113 1
+R12
+R13
+Achowdhury_behaviour
+R2
+R3
+R4
+Z237 DEx4 work 34 chowdhury_unsignedsetlessthan_dec7 0 22 8f3mY=ojfH?66^ln4JP8=0
+l32
+L21
+Z238 VaM469o<6^ZGK_<K:eWkW?3
+Z239 !s100 708EDkN?kXlPSk?;haBne2
+R7
+31
+R221
+!i10b 1
+R227
+R228
+R229
+!i113 1
+R12
+R13

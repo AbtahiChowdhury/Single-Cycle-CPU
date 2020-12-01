@@ -1,0 +1,98 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+PACKAGE Chowdhury_Package_AddSub_Nov30 IS
+	COMPONENT Chowdhury_AddSub_Nov30 IS
+		PORT(CLK : IN STD_LOGIC;
+			  RESET : IN STD_LOGIC;
+			  ADDSUB : IN STD_LOGIC;
+			  SEL : IN STD_LOGIC;
+			  A,B : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+			  NEGATIVE_FLAG : OUT STD_LOGIC;
+			  OVERFLOW_FLAG : OUT STD_LOGIC;
+			  ZERO_FLAG : OUT STD_LOGIC;
+			  Z : BUFFER STD_LOGIC_VECTOR(31 DOWNTO 0));
+	END COMPONENT Chowdhury_AddSub_Nov30;
+END PACKAGE Chowdhury_Package_AddSub_Nov30;
+
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+
+ENTITY Chowdhury_AddSub_Nov30 IS
+	PORT(CLK : IN STD_LOGIC;
+		  RESET : IN STD_LOGIC;
+		  ADDSUB : IN STD_LOGIC;
+		  SEL : IN STD_LOGIC;
+		  A,B : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+		  NEGATIVE_FLAG : OUT STD_LOGIC;
+		  OVERFLOW_FLAG : OUT STD_LOGIC;
+		  ZERO_FLAG : OUT STD_LOGIC;
+		  Z : BUFFER STD_LOGIC_VECTOR(31 DOWNTO 0));
+END Chowdhury_AddSub_Nov30;
+
+ARCHITECTURE Chowdhury_Behaviour OF Chowdhury_AddSub_Nov30 IS
+	
+	COMPONENT Chowdhury_LPM_32Bit2x1Mux_Nov30 IS
+		PORT(data0x : IN STD_LOGIC_VECTOR (31 DOWNTO 0);
+			  data1x : IN STD_LOGIC_VECTOR (31 DOWNTO 0);
+			  sel : IN STD_LOGIC ;
+			  result : OUT STD_LOGIC_VECTOR (31 DOWNTO 0));
+	END COMPONENT;
+	
+	COMPONENT Chowdhury_LPM_32BitAddSub_Nov30 IS
+		PORT(add_sub : IN STD_LOGIC ;
+			  dataa : IN STD_LOGIC_VECTOR (31 DOWNTO 0);
+			  datab : IN STD_LOGIC_VECTOR (31 DOWNTO 0);
+			  overflow : OUT STD_LOGIC ;
+			  result : OUT STD_LOGIC_VECTOR (31 DOWNTO 0));
+	END COMPONENT;
+	
+	SIGNAL G,M,Areg,Breg,Zreg : STD_LOGIC_VECTOR(31 DOWNTO 0);
+	SIGNAL SelR,AddSubR,overflow,negative,zero : STD_LOGIC;
+	
+BEGIN
+	
+	PROCESS (RESET,CLK) BEGIN
+		IF (RESET = '1') THEN
+			Areg <= (OTHERS => '0');
+			Breg <= (OTHERS => '0');
+			Zreg <= (OTHERS => '0');
+			SELR <= '0';
+			ADDSubR <= '0';
+			OVERFLOW_FLAG <= '0';
+			NEGATIVE_FLAG <= '0';
+			ZERO_FLAG <= '1';
+		ELSIF (RISING_EDGE(CLK)) THEN
+			Areg <= A;
+			Breg <= B;
+			Zreg <= M;
+			SelR <= SEL;
+			AddSubR <= NOT ADDSUB;
+			OVERFLOW_FLAG <= overflow;
+			NEGATIVE_FLAG <= negative;
+			ZERO_FLAG <= zero;
+		END IF;
+	END PROCESS;
+	
+	AdderSubtractor: Chowdhury_LPM_32BitAddSub_Nov30 PORT MAP(
+		add_sub=>AddSubR,
+		dataa=>G,
+		datab=>Breg,
+		overflow=>overflow,
+		result=>M
+	);
+	Mux: Chowdhury_LPM_32Bit2x1Mux_Nov30 PORT MAP(
+		sel=>SelR,
+		data0x=>Areg,
+		data1x=>Z,
+		result=>G
+	);
+	
+	negative <= M(31);
+	zero <= '1' WHEN M = x"00000000" ELSE
+			  '0';
+	Z <= Zreg;
+	
+END Chowdhury_Behaviour;

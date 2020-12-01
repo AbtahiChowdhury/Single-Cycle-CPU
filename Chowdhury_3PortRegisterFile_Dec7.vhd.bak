@@ -1,0 +1,85 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+PACKAGE Chowdhury_Package_3PortRegisterFile_Nov30 IS
+	COMPONENT Chowdhury_3PortRegisterFile_Nov30 IS
+		PORT(CLK : IN STD_LOGIC;
+			  REGWR : IN STD_LOGIC;
+			  RW,RA,RB : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
+			  DATAW : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+			  DATAA,DATAB : OUT STD_LOGIC_VECTOR(31 DOWNTO 0));
+	END COMPONENT Chowdhury_3PortRegisterFile_Nov30;
+END PACKAGE Chowdhury_Package_3PortRegisterFile_Nov30;
+
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY Chowdhury_3PortRegisterFile_Nov30 IS
+	PORT(CLK : IN STD_LOGIC;
+		  REGWR : IN STD_LOGIC;
+		  RW,RA,RB : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
+		  DATAW : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+		  DATAA,DATAB : OUT STD_LOGIC_VECTOR(31 DOWNTO 0));
+END Chowdhury_3PortRegisterFile_Nov30;
+
+ARCHITECTURE Chowdhury_Behaviour OF Chowdhury_3PortRegisterFile_Nov30 IS
+	
+	COMPONENT Chowdhury_LPM_RegisterFile_Nov30 IS
+		PORT(address_a : IN STD_LOGIC_VECTOR (4 DOWNTO 0);
+			  address_b : IN STD_LOGIC_VECTOR (4 DOWNTO 0);
+			  clock : IN STD_LOGIC  := '1';
+			  data_a : IN STD_LOGIC_VECTOR (31 DOWNTO 0);
+			  data_b : IN STD_LOGIC_VECTOR (31 DOWNTO 0);
+			  wren_a : IN STD_LOGIC  := '0';
+			  wren_b : IN STD_LOGIC  := '0';
+			  q_a : OUT STD_LOGIC_VECTOR (31 DOWNTO 0);
+			  q_b : OUT STD_LOGIC_VECTOR (31 DOWNTO 0));
+	END COMPONENT;
+	
+	COMPONENT Chowdhury_LPM_32Bit2x1Mux_Nov30 IS
+		PORT(data0x : IN STD_LOGIC_VECTOR (31 DOWNTO 0);
+			  data1x : IN STD_LOGIC_VECTOR (31 DOWNTO 0);
+			  sel : IN STD_LOGIC ;
+			  result : OUT STD_LOGIC_VECTOR (31 DOWNTO 0));
+	END COMPONENT;
+	
+	COMPONENT Chowdhury_LPM_5Bit2x1Mux_Nov30 IS
+		PORT(data0x : IN STD_LOGIC_VECTOR (4 DOWNTO 0);
+			  data1x : IN STD_LOGIC_VECTOR (4 DOWNTO 0);
+			  sel : IN STD_LOGIC ;
+			  result : OUT STD_LOGIC_VECTOR (4 DOWNTO 0));
+	END COMPONENT;
+	
+	SIGNAL ADDB : STD_LOGIC_VECTOR(4 DOWNTO 0);
+	SIGNAL DATA : STD_LOGIC_VECTOR(31 DOWNTO 0);
+	
+BEGIN
+	
+	AddressMux: Chowdhury_LPM_5Bit2x1Mux_Nov30 PORT MAP(
+		data0x=>RB,
+		data1x=>RW,
+		sel=>REGWR,
+		result=>ADDB
+	);
+	
+	DataMux: Chowdhury_LPM_32Bit2x1Mux_Nov30 PORT MAP(
+		data0x=>x"00000000",
+		data1x=>DATAW,
+		sel=>REGWR,
+		result=>DATA
+	);
+	
+	RegisterFile: Chowdhury_LPM_RegisterFile_Nov30 PORT MAP(
+		address_a=>RA,
+		address_b=>ADDB,
+		clock=>CLK,
+		data_a=>x"00000000",
+		data_b=>DATA,
+		wren_a=>'0',
+		wren_b=>REGWR,
+		q_a=>DATAA,
+		q_b=>DATAB
+	);
+	
+END Chowdhury_Behaviour;

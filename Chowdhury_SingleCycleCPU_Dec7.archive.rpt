@@ -1,0 +1,171 @@
+Archive Project report for Chowdhury_SingleCycleCPU_Dec7
+Thu Nov 26 19:09:41 2020
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Thu Nov 26 19:09:41 2020 ;
+; Revision Name          ; Chowdhury_SingleCycleCPU_Dec7         ;
+; Top-level Entity Name  ; Chowdhury_SingleCycleCPU_Dec7         ;
+; Family                 ; Cyclone V                             ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory D:/altera_lite/org/Chowdhury_CPU/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'D:/altera_lite/org/Chowdhury_CPU/Chowdhury_SingleCycleCPU_Dec7.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'Chowdhury_SingleCycleCPU_Dec7.archive.rpt'
+Info (23030): Evaluation of Tcl script d:/altera_lite/16.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 5007 megabytes
+    Info: Processing ended: Thu Nov 26 19:09:41 2020
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-----------------------------------------------------------+
+; Files Archived                                            ;
++-----------------------------------------------------------+
+; File Name                                                 ;
++-----------------------------------------------------------+
+; Chowdhury_1BitDiv_Dec7.vhd                                ;
+; Chowdhury_1BitFullSubtractor_Dec7.vhd                     ;
+; Chowdhury_3PortRegisterFile_Dec7.vhd                      ;
+; Chowdhury_32BitInstructionRegister_Dec7.vhd               ;
+; Chowdhury_32BitRegister_Dec7.vhd                          ;
+; Chowdhury_ALU_Dec7.vhd                                    ;
+; Chowdhury_And_Dec7.vhd                                    ;
+; Chowdhury_Compare_Dec7.vhd                                ;
+; Chowdhury_CPUController_Dec7.vhd                          ;
+; Chowdhury_DataMemory_Dec7.vhd                             ;
+; Chowdhury_Extender_Dec7.vhd                               ;
+; Chowdhury_InstructionMemory_Dec7.vhd                      ;
+; Chowdhury_LPM_1Bit64x1Mux_Dec7.cmp                        ;
+; Chowdhury_LPM_1Bit64x1Mux_Dec7.qip                        ;
+; Chowdhury_LPM_1Bit64x1Mux_Dec7.vhd                        ;
+; Chowdhury_LPM_1Bit64x1Mux_Dec7_syn.v                      ;
+; Chowdhury_LPM_5Bit2x1Mux_Dec7.cmp                         ;
+; Chowdhury_LPM_5Bit2x1Mux_Dec7.qip                         ;
+; Chowdhury_LPM_5Bit2x1Mux_Dec7.vhd                         ;
+; Chowdhury_LPM_5Bit2x1Mux_Dec7_syn.v                       ;
+; Chowdhury_LPM_5x32Decoder_Dec7.cmp                        ;
+; Chowdhury_LPM_5x32Decoder_Dec7.qip                        ;
+; Chowdhury_LPM_5x32Decoder_Dec7.vhd                        ;
+; Chowdhury_LPM_5x32Decoder_Dec7_syn.v                      ;
+; Chowdhury_LPM_32Bit2x1Mux_Dec7.cmp                        ;
+; Chowdhury_LPM_32Bit2x1Mux_Dec7.qip                        ;
+; Chowdhury_LPM_32Bit2x1Mux_Dec7.vhd                        ;
+; Chowdhury_LPM_32Bit2x1Mux_Dec7_syn.v                      ;
+; Chowdhury_LPM_32Bit32x1Mux_Dec7.cmp                       ;
+; Chowdhury_LPM_32Bit32x1Mux_Dec7.qip                       ;
+; Chowdhury_LPM_32Bit32x1Mux_Dec7.vhd                       ;
+; Chowdhury_LPM_32Bit32x1Mux_Dec7_syn.v                     ;
+; Chowdhury_LPM_32Bit64x1Mux_Dec7.cmp                       ;
+; Chowdhury_LPM_32Bit64x1Mux_Dec7.qip                       ;
+; Chowdhury_LPM_32Bit64x1Mux_Dec7.vhd                       ;
+; Chowdhury_LPM_32Bit64x1Mux_Dec7_syn.v                     ;
+; Chowdhury_LPM_32BitAdder_Dec7.cmp                         ;
+; Chowdhury_LPM_32BitAdder_Dec7.qip                         ;
+; Chowdhury_LPM_32BitAdder_Dec7.vhd                         ;
+; Chowdhury_LPM_32BitAdder_Dec7_syn.v                       ;
+; Chowdhury_LPM_32BitShiftArithmetic_Dec7.cmp               ;
+; Chowdhury_LPM_32BitShiftArithmetic_Dec7.qip               ;
+; Chowdhury_LPM_32BitShiftArithmetic_Dec7.vhd               ;
+; Chowdhury_LPM_32BitShiftArithmetic_Dec7_syn.v             ;
+; Chowdhury_LPM_32BitShiftLogical_Dec7.cmp                  ;
+; Chowdhury_LPM_32BitShiftLogical_Dec7.qip                  ;
+; Chowdhury_LPM_32BitShiftLogical_Dec7.vhd                  ;
+; Chowdhury_LPM_32BitShiftLogical_Dec7_syn.v                ;
+; Chowdhury_LPM_32BitSignedAddSub_Dec7.cmp                  ;
+; Chowdhury_LPM_32BitSignedAddSub_Dec7.qip                  ;
+; Chowdhury_LPM_32BitSignedAddSub_Dec7.vhd                  ;
+; Chowdhury_LPM_32BitSignedAddSub_Dec7_syn.v                ;
+; Chowdhury_LPM_32BitSignedComparator_Dec7.cmp              ;
+; Chowdhury_LPM_32BitSignedComparator_Dec7.qip              ;
+; Chowdhury_LPM_32BitSignedComparator_Dec7.vhd              ;
+; Chowdhury_LPM_32BitSignedComparator_Dec7_syn.v            ;
+; Chowdhury_LPM_32BitUnsignedAddSub_Dec7.cmp                ;
+; Chowdhury_LPM_32BitUnsignedAddSub_Dec7.qip                ;
+; Chowdhury_LPM_32BitUnsignedAddSub_Dec7.vhd                ;
+; Chowdhury_LPM_32BitUnsignedAddSub_Dec7_syn.v              ;
+; Chowdhury_LPM_32BitUnsignedComparator_Dec7.cmp            ;
+; Chowdhury_LPM_32BitUnsignedComparator_Dec7.qip            ;
+; Chowdhury_LPM_32BitUnsignedComparator_Dec7.vhd            ;
+; Chowdhury_LPM_32BitUnsignedComparator_Dec7_syn.v          ;
+; Chowdhury_LPM_Counter_Dec7.cmp                            ;
+; Chowdhury_LPM_Counter_Dec7.qip                            ;
+; Chowdhury_LPM_Counter_Dec7.vhd                            ;
+; Chowdhury_LPM_Counter_Dec7_syn.v                          ;
+; Chowdhury_LPM_DataMemory_Dec7.cmp                         ;
+; Chowdhury_LPM_DataMemory_Dec7.qip                         ;
+; Chowdhury_LPM_DataMemory_Dec7.vhd                         ;
+; Chowdhury_LPM_DataMemory_Dec7_syn.v                       ;
+; Chowdhury_LPM_InstructionMemory_Dec7.cmp                  ;
+; Chowdhury_LPM_InstructionMemory_Dec7.qip                  ;
+; Chowdhury_LPM_InstructionMemory_Dec7.vhd                  ;
+; Chowdhury_LPM_InstructionMemory_Dec7_syn.v                ;
+; Chowdhury_NALU_Dec7.vhd                                   ;
+; Chowdhury_Nor_Dec7.vhd                                    ;
+; Chowdhury_Or_Dec7.vhd                                     ;
+; Chowdhury_ShiftLeftLogical_Dec7.vhd                       ;
+; Chowdhury_ShiftRightArithmetic_Dec7.vhd                   ;
+; Chowdhury_ShiftRightLogical_Dec7.vhd                      ;
+; Chowdhury_SignedAddSub_Dec7.vhd                           ;
+; Chowdhury_SignedSetLessThan_Dec7.vhd                      ;
+; Chowdhury_SingleCycleCPU_Dec7.qpf                         ;
+; Chowdhury_SingleCycleCPU_Dec7.qsf                         ;
+; Chowdhury_SingleCycleCPU_Dec7.vhd                         ;
+; Chowdhury_SingleCycleCPU_Testbench_Dec7.vhd               ;
+; Chowdhury_UnsignedAddSub_Dec7.vhd                         ;
+; Chowdhury_UnsignedDivider_Dec7.vhd                        ;
+; Chowdhury_UnsignedMultiplier_Dec7.vhd                     ;
+; Chowdhury_UnsignedSetLessThan_Dec7.vhd                    ;
+; d:/altera_lite/16.0/quartus/bin64/assignment_defaults.qdf ;
+; DataMemory.mif                                            ;
+; InstructionMemory.mif                                     ;
+; RegisterFile.mif                                          ;
++-----------------------------------------------------------+
+
+
