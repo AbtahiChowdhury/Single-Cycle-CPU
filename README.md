@@ -66,6 +66,7 @@ The single cycle CPU is a circuit that implements the fetch decode execute cycle
 
 <p align="center">
 	<img src="./pictures/block_diagram_alu.PNG" />
+	<br/>
 	Figure 11: Block diagram for arithmetic logic unit.
 </p>
 <br/><br/>
