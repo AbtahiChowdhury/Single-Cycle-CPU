@@ -4,15 +4,15 @@ The single cycle CPU is a circuit that implements the fetch decode execute cycle
 
 ![](./pictures/opcode_instructions.PNG)
 Figure 1: Table of all implemented instructions.
-<br/>
+<br/><br/>
 
 ![](./pictures/opcode_control_signals.PNG)
 Figure 2: Table of control signals for all implemented instructions.
-<br/>
+<br/><br/>
 
 ![](./pictures/opcode_instructions.PNG)
 Figure 3: MIPs code used to test the CPU.
-<br/>
+<br/><br/>
 
 ## Block Diagrams
 
