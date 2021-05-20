@@ -4,7 +4,7 @@ The single cycle CPU is a circuit that implements the fetch decode execute cycle
 
 <div style="text-align:center">
 	<img src="./pictures/opcode_instructions.PNG" />
-	Figure 1: Table of all implemented instructions.
+	<p>Figure 1: Table of all implemented instructions.</p>
 </div>
 <br/><br/>
 
