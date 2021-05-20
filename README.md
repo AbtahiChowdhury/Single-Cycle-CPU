@@ -22,37 +22,53 @@ The single cycle CPU is a circuit that implements the fetch decode execute cycle
 
 ## Block Diagrams
 
-![](RackMultipart20210520-4-1waqt2e_html_9bb1a28a9dc5ac05.png)
+<p align="center">
+	<img src="./pictures/block_diagram_cpu.PNG" />
+	Figure 4: Block diagram for single cycle CPU.
+</p>
+<br/><br/>
 
-Figure 4: Block diagram for single cycle CPU.
+<p align="center">
+	<img src="./pictures/block_diagram_controller.PNG" />
+	Figure 5: Block diagram for controller.
+</p>
+<br/><br/>
 
-![](RackMultipart20210520-4-1waqt2e_html_94bb2597adc5296d.png)
+<p align="center">
+	<img src="./pictures/block_diagram_nalu.PNG" />
+	Figure 6: Block diagram for NALU.
+</p>
+<br/><br/>
 
-Figure 5: Block diagram for controller.
+<p align="center">
+	<img src="./pictures/block_diagram_instruction_memory.PNG" />
+	Figure 7: Block diagram for instruction memory.
+</p>
+<br/><br/>
 
-![](RackMultipart20210520-4-1waqt2e_html_b1b1cf7368e6c509.png)
+<p align="center">
+	<img src="./pictures/block_diagram_data_memory.PNG" />
+	Figure 8: Block diagram for data memory.
+</p>
+<br/><br/>
 
-Figure 6: Block diagram for NALU.
+<p align="center">
+	<img src="./pictures/block_diagram_extender.PNG" />
+	Figure 9: Block diagram for extender.
+</p>
+<br/><br/>
 
-![](RackMultipart20210520-4-1waqt2e_html_7248444678772189.png)
+<p align="center">
+	<img src="./pictures/block_diagram_register_file.PNG" />
+	Figure 10: Block diagram for register file.
+</p>
+<br/><br/>
 
-Figure 7: Block diagram for instruction memory.
-
-![](RackMultipart20210520-4-1waqt2e_html_813c5171059399c4.png)
-
-Figure 8: Block diagram for data memory.
-
-![](RackMultipart20210520-4-1waqt2e_html_8ccc2e02ff4b7166.png)
-
-Figure 9: Block diagram for extender.
-
-![](RackMultipart20210520-4-1waqt2e_html_4c5a1c82380d184a.png)
-
-Figure 10: Block diagram for register file.
-
-![](RackMultipart20210520-4-1waqt2e_html_a445ff258bd7dae2.png)
-
-Figure 11: Block diagram for ALU.
+<p align="center">
+	<img src="./pictures/block_diagram_alu.PNG" />
+	Figure 11: Block diagram for ALU.
+</p>
+<br/><br/>
 
 ## Simulations
 
