@@ -2,8 +2,10 @@
 
 The single cycle CPU is a circuit that implements the fetch decode execute cycle of a CPU using VHDL. The following figure shows all the MIPs instructions that were implemented. For each instruction, the usage, name, action, and bit fields are shown. The figure after that shows how the control signals for the CPU are changed based on the current running instructions. The figure after that shows the specific instructions that I will be running to showcase my CPU. It will read 6 numbers from data memory and sum them in a loop. At the end of the loop the sum is stored into data memory.
 
-![](./pictures/opcode_instructions.PNG)
-Figure 1: Table of all implemented instructions.
+<div style="text-align:center">
+	<img src="./pictures/opcode_instructions.PNG" />
+	Figure 1: Table of all implemented instructions.
+</div>
 <br/><br/>
 
 ![](./pictures/opcode_control_signals.PNG)
