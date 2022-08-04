@@ -17,7 +17,7 @@ The single cycle CPU is a circuit that implements the fetch decode execute cycle
 <br/><br/>
 
 <p align="center">
-	<img src="./pictures/opcode_instructions.PNG" />
+	<img src="./pictures/opcode_exec.PNG" />
 	<br/>
 	Figure 3: MIPs code used to test the CPU.
 </p>
